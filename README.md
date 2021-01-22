@@ -22,9 +22,11 @@ Describe: robogersTalk()
 Test: "It should return an array with a 0 if the number 0 is passed as an argument"
 Expect(robogersTalk(0).toEqual([0]))
 
+Test: "It should return an array with 2 values if the number 1 is passed as an argument"
+Expect(robogersTalk(1).toEqual([0, "Beep!"]))
+
 Test: "It should return an array with 3 values if the number 2 is passed as an argument"
 Expect(robogersTalk(2).toEqual([0, "Beep!", "Boop!"]))
-
 
 Test: "It should return an array with 4 values if the number 3 is passed as an argument"
 Expect(robogersTalk(3).toEqual([0, "Beep!", "Boop!", "Won't you be my neighbor?"]))
