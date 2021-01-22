@@ -10,9 +10,12 @@ const robogersTalk = (arg) => {
       returnArray.push('Beep!');
     }
     else {
-      returnArray.push(i)
+      returnArray.push(i);
     }
   }
   return returnArray;
 };
-console.log(robogersTalk(300))
+
+$(document).ready(function(event) {
+
+})
