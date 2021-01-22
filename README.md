@@ -22,6 +22,9 @@ Describe: robogersTalk();
 Test: "It should reject non numbers by asking for a number"
 Expect(robogersTalk('cats').toEqual(['Please Enter A Number']));
 
+Test: "It should reject numbers larger than 5000 to prevent timeout"
+Expect(robogersTalk(5001).toEqual(['BZZZTTTTTTT ERROR... NUMBER TO LARGE']));
+
 Test: "It should return an array with a 0 if the number 0 is passed as an argument"
 Expect(robogersTalk(0).toEqual([0]));
 
