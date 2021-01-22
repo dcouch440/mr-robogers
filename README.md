@@ -19,6 +19,9 @@ The conditions will also take on a role of importance and values containing a 3 
 ## *Specs*
 ```javascript
 Describe: robogersTalk()
+Test: "It should reject non numbers by asking for a number"
+Expect(robogersTalk('cats').toEqual(['Please Enter A Number']))
+
 Test: "It should return an array with a 0 if the number 0 is passed as an argument"
 Expect(robogersTalk(0).toEqual([0]))
 

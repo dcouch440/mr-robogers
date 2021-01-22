@@ -39,22 +39,19 @@ body {
   justify-content: space-evenly;
 }
 #robogres-says {
-  text-align: end;
+  text-align: center;
   font-size: 24px;
   background-color: rgb(255 255 255);
   width: 500px;
-  height: 24px 5px;
+  height: 150px;
   border-radius: 93px 39px 75px 0px;
   border: 2px solid black;
   color: black;
   font-weight: bolder;
   overflow: hidden;
 }
-#robogres-says-text {
-  width: 100%;
-}
-#input-section p {
-  transform: translateX(100%);
+
+#robot-text-container {
   animation: scroll-left 20s linear infinite;
 }
 #input-cluster {
@@ -94,13 +91,13 @@ body {
 
 @keyframes scroll-left {
   0% { 
-  -moz-transform: translateX(100%); 
-  -webkit-transform: translateX(100%); 
-  transform: translateX(100%); 
+  -moz-transform: translateY(0%); 
+  -webkit-transform: translateY(0%); 
+  transform: translateY(0%); 
   }
   100% { 
-  -moz-transform: translateX(-100%); 
-  -webkit-transform: translateX(-100%); 
-  transform: translateX(-100%); 
+  -moz-transform: translateY(-50%); 
+  -webkit-transform: translateY(-50%); 
+  transform: translateY(-50%); 
   }
   }
