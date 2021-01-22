@@ -23,11 +23,11 @@ Test: "It should return an array with a 0 if the number 0 is passed as an argume
 Expect(robogersTalk(0).toEqual([0]))
 
 Test: "It should return an array with 3 values if the number 2 is passed as an argument"
-Expect(robogersTalk(0).toEqual([0, "Beep!", "Boop!"]))
+Expect(robogersTalk(2).toEqual([0, "Beep!", "Boop!"]))
 
 
-Test: "It should return an array with 3 values if the number 2 is passed as an argument"
-Expect(robogersTalk(0).toEqual([0, "Beep!", "Boop!"]))
+Test: "It should return an array with 4 values if the number 3 is passed as an argument"
+Expect(robogersTalk(3).toEqual([0, "Beep!", "Boop!", "Won't you be my neighbor?"]))
 
 Test: "It should return an array with 14 values if the number 13 is passed as an argument"
 Expect(robogersTalk(0).toEqual([0, "Beep!", "Boop!", "Won't you be my neighbor?", 4, 5, 6, 7, 8, 9, "Beep!", "Beep!", "Boop!", "Won't you be my neighbor?"]))
