@@ -18,24 +18,28 @@ The conditions will also take on a role of importance and values containing a 3 
 * * *
 ## *Specs*
 ```javascript
-Describe: robogersTalk()
+Describe: robogersTalk();
 Test: "It should reject non numbers by asking for a number"
-Expect(robogersTalk('cats').toEqual(['Please Enter A Number']))
+Expect(robogersTalk('cats').toEqual(['Please Enter A Number']));
 
 Test: "It should return an array with a 0 if the number 0 is passed as an argument"
-Expect(robogersTalk(0).toEqual([0]))
+Expect(robogersTalk(0).toEqual([0]));
 
 Test: "It should return an array with 2 values if the number 1 is passed as an argument"
-Expect(robogersTalk(1).toEqual([0, "Beep!"]))
+Expect(robogersTalk(1).toEqual([0, "Beep!"]));
 
 Test: "It should return an array with 3 values if the number 2 is passed as an argument"
-Expect(robogersTalk(2).toEqual([0, "Beep!", "Boop!"]))
+Expect(robogersTalk(2).toEqual([0, "Beep!", "Boop!"]));
 
 Test: "It should return an array with 4 values if the number 3 is passed as an argument"
-Expect(robogersTalk(3).toEqual([0, "Beep!", "Boop!", "Won't you be my neighbor?"]))
+Expect(robogersTalk(3).toEqual([0, "Beep!", "Boop!", "Won't you be my neighbor?"]));
 
 Test: "It should return an array with 14 values if the number 13 is passed as an argument"
-Expect(robogersTalk(0).toEqual([0, "Beep!", "Boop!", "Won't you be my neighbor?", 4, 5, 6, 7, 8, 9, "Beep!", "Beep!", "Boop!", "Won't you be my neighbor?"]))
+Expect(robogersTalk(0).toEqual([0, "Beep!", "Boop!", "Won't you be my neighbor?", 4, 5, 6, 7, 8, 9, "Beep!", "Beep!", "Boop!", "Won't you be my neighbor?"]));
+
+Describe: $('#submit-button').click(function() {});
+Test: "It should receive a click event from the submit button"
+Expect($('#submit-button').click(function(event) {return event}.toEqual(Jquery.Event {originalEvent: MouseEvent, type: "click", target: button#submit-button}));
 ```
 * * *
 

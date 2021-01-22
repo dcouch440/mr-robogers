@@ -19,12 +19,11 @@ const robogersTalk = (arg) => {
   }
   return returnArray
 };
-console.log(robogersTalk('cats'))
 $(document).ready(function() {
   $('#submit-button').click(function(event) {
     event.preventDefault()
     const userInput = document.getElementById('user-input').value
     const userReturn = robogersTalk(userInput).join(' ')
     document.getElementById('robogres-says-text').innerHTML = userReturn
-  })
-})
+  });
+});
