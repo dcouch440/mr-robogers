@@ -28,6 +28,9 @@ body {
   font-family: 'Press Start 2P', cursive;
 }
 #page-container img {
+  height: auto;
+  width: auto;
+  object-fit: cover;
   margin-bottom: 24px;
 }
 #robot-container {
@@ -42,7 +45,7 @@ body {
   text-align: center;
   font-size: 24px;
   background-color: rgb(255 255 255);
-  width: 600px;
+  width: 550px;
   height: 300px;
   padding-top: 40px;
   border-radius: 93px 0px 0px 0px;
@@ -95,3 +98,12 @@ body {
   transition: .4s;
 }
 
+@media only screen and (max-width: 1000px) {
+  #robot-container {
+    flex-direction: column;
+  }
+  #robogres-says {
+    border-radius: 0;
+    width: 450px;
+  }
+}
