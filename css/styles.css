@@ -39,7 +39,7 @@ body {
   justify-content: space-evenly;
 }
 #robogres-says {
-  text-align: center;
+  text-align: end;
   font-size: 24px;
   background-color: rgb(255 255 255);
   width: 500px;
@@ -49,6 +49,9 @@ body {
   color: black;
   font-weight: bolder;
   overflow: hidden;
+}
+#robogres-says-text {
+  width: 100%;
 }
 #input-section p {
   transform: translateX(100%);

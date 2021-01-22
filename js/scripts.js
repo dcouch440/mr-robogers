@@ -16,6 +16,10 @@ const robogersTalk = (arg) => {
   return returnArray;
 };
 
-$(document).ready(function(event) {
-
+$(document).ready(function() {
+  $('#submit-button').click(function(event) {
+    event.preventDefault()
+    const userInput = document.getElementById('user-input').value
+    document.getElementById('robogres-says-text').innerHTML = userInput
+  })
 })
