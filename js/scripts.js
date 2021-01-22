@@ -1,7 +1,7 @@
 const robogersTalk = (arg) => {
   const returnArray = [];
   for (let i = 0; i <= arg; i++) {
-    const iterateSplit = arg > 9 ? `${i}`.split('') : `${i}`.split('')
+    const iterateSplit = `${i}`.split('')
     if (iterateSplit.includes('3')) {
       returnArray.push('Won\'t you be my neighbor?');
     }else if (iterateSplit.includes('2')) {
@@ -15,4 +15,4 @@ const robogersTalk = (arg) => {
   }
   return returnArray;
 };
-console.log(robogersTalk(13))
+console.log(robogersTalk(300))
