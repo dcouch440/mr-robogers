@@ -15,4 +15,4 @@ const robogersTalk = (arg) => {
   }
   return returnArray;
 };
-robogersTalk(3)
+console.log(robogersTalk(13))
