@@ -135,6 +135,3 @@ code .
 Licensed under [MIT license](https://mit-license.org/)
 
 * * *
-
-## Contact Information
-_David Couch: [Email](dcouch440@gmail.com)_
