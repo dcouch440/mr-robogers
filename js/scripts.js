@@ -1,5 +1,4 @@
-const val = 0;
-const robogersTalk = (arg = val) => {
+const robogersTalk = (arg) => {
   const returnArray = [];
   for (let i = 0; i <= arg; i++) {
     const iterateSplit = [i].length > 9 ? [...i] : [i]
@@ -16,4 +15,4 @@ const robogersTalk = (arg = val) => {
   }
   return returnArray;
 };
-console.log(robogersTalk(0));
+console.log(robogersTalk(0))
