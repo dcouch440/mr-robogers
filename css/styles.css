@@ -67,7 +67,8 @@ body {
   font-family: 'Press Start 2P', cursive;
   text-shadow: 0px 2px black;
 }
-#input-cluster input:focus {
+#input-cluster input:focus,
+#input-cluster button:focus {
   outline-style: none;
   box-shadow: 0 0 5px 2px white;
 }
