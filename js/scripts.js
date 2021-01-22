@@ -2,6 +2,8 @@ const robogersTalk = (arg) => {
   let returnArray = [];
   if (!/^[0-9]*$/gm.test(arg)) {
     returnArray = ['Please Enter A Number']
+  } else if (parseInt(arg) > 5000) {
+    returnArray = ['BZZZTTTTTTT ERROR... NUMBER TO LARGE']
   } else {
     for (let i = 0; i <= arg; i++) {
       const iterateSplit = `${i}`.split('')
