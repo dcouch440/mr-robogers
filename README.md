@@ -1,4 +1,4 @@
-# Mr Robogers
+# *Mr Robogers*
 
 #### Author: *David Couch*
 
@@ -6,7 +6,7 @@
 
 * * *
 ## *Description*
-This is a web application with logic written in javascript. The app should take an input from the user and produce an output that changes as the numbers ascend from low to high starting at 0 by using a loop . The ascended increments are set to the value of 1.
+This is a web application with logic written in javascript. The app should take an input from the user and produce an output that changes as the numbers ascend from low to high starting at 0 by using a loop . The ascended increments are set to the value of 1. Inputs are limited to 5000 to prevent browser timeouts!
 
 While the numbers ascend values change as such:\
 Values that contain a 1: all digits are replaced with "Beep!"\
@@ -57,7 +57,7 @@ Expect($('#submit-button').click(function(event) {return event}.toEqual(Jquery.E
 
 ## Installation : 
 ### Want to see this webpage now?
-###### See this web page in action on [Github Pages]()
+###### See this web page in action on [Github Pages](https://dcouch440.github.io/mr-robogers/)
 
 * Go to ( https://github.com/dcouch440/mr-robogers.git ).
 
