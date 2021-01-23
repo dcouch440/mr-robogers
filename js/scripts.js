@@ -23,9 +23,9 @@ const robogersTalk = (arg) => {
 };
 $(document).ready(function() {
   $('#submit-button').click(function(event) {
-    event.preventDefault()
-    const userInput = document.getElementById('user-input').value
-    const userReturn = robogersTalk(userInput).join(' ')
-    document.getElementById('robogres-says-text').innerHTML = userReturn
+    event.preventDefault();
+    const userInput = document.getElementById('user-input').value;
+    const userReturn = robogersTalk(userInput).join(' ');
+    document.getElementById('robogres-says-text').innerHTML = userReturn;
   });
 });
