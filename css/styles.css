@@ -69,6 +69,7 @@ body {
 
 #input-cluster {
   align-self: center;
+  margin-top: 20px;
 }
 #input-cluster input {
   border-radius: 10px;
@@ -110,5 +111,8 @@ body {
   #robogres-says {
     border-radius: 0;
     width: 450px;
+  }
+  #input-cluster {
+    margin: 0;
   }
 }
