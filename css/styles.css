@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chicle&display=swap');
 * {
   box-sizing: border-box;
 }
@@ -10,7 +11,6 @@ html, body {
 }
 body {
   background-color: #181a1b;
-  color: goldenrod;
   font-family: monospace;
 }
 #page-container {
@@ -24,13 +24,14 @@ body {
 }
 #page-container h1 {
   position: absolute;
+  color: #ffb600;
   top: 5%;
   font-family: 'Press Start 2P', cursive;
   text-shadow: 
-    -1px -2px 6px #7d7d7d, 
-    0px 0px 20px black, 
-    -5px -5px #000000,
-    -4px -4px 0px black; 
+    -2px -1px 2px #ffb7008f, 
+    0px 0px 20px rgb(0, 0, 0),
+    -5px 2px 2px #000000, 
+    -4px -4px 0px rgb(0, 0, 0);
 }
 #page-container img {
   height: auto;
@@ -47,28 +48,29 @@ body {
   justify-content: space-evenly;
 }
 #robogres-says {
+  margin-left: 20px;
+  margin-bottom: 20px;
   text-align: center;
-  font-size: 24px;
+  font-size: 28px;
   background-color: rgb(255 255 255);
   width: 550px;
   height: 300px;
-  padding: 10px 20px;
+  padding: 16px 32px;
   border-radius: 93px 0px 0px 0px;
-  border: 2px solid black;
-  color: black;
-  font-weight: bolder;
+  color: #ffb700;
   overflow: auto;
   overflow-x: hidden;
   box-shadow: 
     inset -4px 7px 20px 2px rgba(0, 0, 0, 0.603), 
     inset 0px -4px 12px 2px rgb(0 0 0 / 75%), 
     inset 1px 5px 20px #0000001f, 
-    0px 0px 2px 0px #5c5c5c;
-  text-shadow: 0px 0 2px rgba(0, 0, 0, 0.308); 
+    0px 0px 2px 0px #5c5c5c, 
+    0 0 1px 1px #3f3f3f98;
+  text-shadow: -1px 1px 4px rgba(0, 0, 0, 0.308), 0px 0 2px #000000;
+  font-family: 'Chicle', cursive;
 }
 #input-cluster {
   align-self: center;
-  margin-top: 20px;
 }
 #input-cluster input {
   border-radius: 10px;
