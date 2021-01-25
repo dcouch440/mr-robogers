@@ -9,9 +9,9 @@ const robogersTalk = (arg) => {
       const iterateSplit = `${i}`.split('')
       if (iterateSplit.includes('3')) {
         returnArray.push('Won\'t you be my neighbor?');
-      }else if (iterateSplit.includes('2')) {
+      } else if (iterateSplit.includes('2')) {
         returnArray.push('Boop!');
-      }else if (iterateSplit.includes('1')) {
+      } else if (iterateSplit.includes('1')) {
         returnArray.push('Beep!');
       }
       else {
