@@ -38,7 +38,7 @@ Test: "It should return an array with 4 values if the number 3 is passed as an a
 Expect(robogersTalk(3).toEqual([0, "Beep!", "Boop!", "Won't you be my neighbor?"]));
 
 Test: "It should return an array with 14 values if the number 13 is passed as an argument"
-Expect(robogersTalk(0).toEqual([0, "Beep!", "Boop!", "Won't you be my neighbor?", 4, 5, 6, 7, 8, 9, "Beep!", "Beep!", "Boop!", "Won't you be my neighbor?"]));
+Expect(robogersTalk(13).toEqual([0, "Beep!", "Boop!", "Won't you be my neighbor?", 4, 5, 6, 7, 8, 9, "Beep!", "Beep!", "Boop!", "Won't you be my neighbor?"]));
 
 Describe: $('#submit-button').click(function() {});
 Test: "It should receive a click event from the submit button"
