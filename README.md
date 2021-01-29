@@ -42,7 +42,7 @@ Expect(robogersTalk(13).toEqual([0, "Beep!", "Boop!", "Won't you be my neighbor?
 
 Describe: $('#submit-button').click(function() {});
 Test: "It should receive a click event from the submit button"
-Expect($('#submit-button').click(function(event) {return event}.toEqual(Jquery.Event {originalEvent: MouseEvent, type: "click", target: button#submit-button...}));
+Expect($('#submit-button').click(function(event) {return event}).toEqual(Jquery.Event {originalEvent: MouseEvent, type: "click", target: button#submit-button...});
 ```
 * * *
 
